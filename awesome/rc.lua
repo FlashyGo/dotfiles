@@ -329,7 +329,7 @@ globalkeys = gears.table.join(
 
     -- Prompt
     awful.key({ modkey },            "r",     function ()   
-	    awful.util.spawn("i3-dmenu-desktop") end, 
+	    awful.util.spawn("dmenu_run") end, 
 	    {description = "run dmenu", group = "launcher"}),
     -- Menubar
     awful.key({ modkey }, "p", function() menubar.show() end,
