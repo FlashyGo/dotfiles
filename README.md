@@ -1,5 +1,5 @@
 # Dotfiles
-My Dotfiles, including customizations for neovim and awesome window manager.
+My Dotfiles, currently neovim and awesome window manager configs. 
 
 # Installation
 1. Clone the repository to a folder somewhere on your system
