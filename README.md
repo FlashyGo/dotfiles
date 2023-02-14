@@ -18,7 +18,7 @@ The next step would be to :so packer.nvim and run :PackerInstall
 I'd also recommend setting your environment variables e.g. for your editor:
 
 ```shell
-export EDITOR="/usr/bin/{editor-cmd}
+export EDITOR="/usr/bin/{editor-cmd}"
 ```
 
 (replace {editor-cmd} with the command for your editor)
