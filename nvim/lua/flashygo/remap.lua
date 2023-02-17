@@ -1,4 +1,4 @@
-local nnoremap = require("theprimagen.keymap").nnoremap
+local nnoremap = require("flashygo.keymap").nnoremap
 
 -- center cursor after going up or down half a page
 nnoremap("<C-d>", "<C-d>zz")
