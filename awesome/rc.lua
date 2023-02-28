@@ -172,11 +172,11 @@ awful.screen.connect_for_each_screen(function(s)
     set_wallpaper(s)
 
     -- Each screen has its own tag table.
-    -- awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9"}, s, awful.layout.layouts[1])
-    local names = {"main", "secondary", "work", "play", "music", "btop", "terminal", "comms", "browser"}
     local l = awful.layout.suit -- just to save some typing: alias in lua
     local layouts = {l.tile, l.tile, l.tile, l.tile, l.tile, l.tile, l.tile, l.tile, l.tile}
-    awful.tag(names, s, layouts)
+    awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9"}, s, layouts)
+    --local names = {"main", "secondary", "work", "play", "music", "btop", "terminal", "comms", "browser"}
+    --awful.tag(names, s, layouts)
     -- Create a promptbox for each screen
     s.mypromptbox = awful.widget.prompt()
     -- Create an imagebox widget which will contain an icon indicating which layout we're using.
