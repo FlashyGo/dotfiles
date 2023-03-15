@@ -571,3 +571,4 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 -- autostart apps
 awful.spawn.with_shell("nm-applet") -- Network Manager Widget
+awful.spawn.with_shell("xfce4-power-manager") -- brightness control
